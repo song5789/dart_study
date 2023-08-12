@@ -34,5 +34,7 @@ void main(List<String> arguments) {
   // nico = null;
   // nico?.isNotEmpty;
 
-  print("hello, world!");
+  String? name = '검성 고길동';
+  name = null;
+  name?.length;
 }
